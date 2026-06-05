@@ -1,3 +1,11 @@
+See directory `keyboards/planck/rev7/keymaps/sam1` for the custom layout :)
+
+```
+nix-shell
+qmk compile -kb planck/rev7 -km sam1
+qmk flash -kb planck/rev7 -km sam1
+```
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
